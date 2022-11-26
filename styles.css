@@ -23,8 +23,8 @@ header {
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    width: 239px;
-    height: 64px;
+    width: 170px;
+    height: 29px;
     background: #665AE1;
     border-radius: 30px;
     border: none;
@@ -81,4 +81,48 @@ p {
     color: #000000;
     border:none;
     margin-top: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    header{
+        display: none;
+    }
+
+    img {
+        margin: 60px auto 0 auto;
+        display: block;
+        width: 354px;
+        height: 317px;
+
+    }
+
+    section{
+        display: block;
+        margin: 0 auto 0 auto;
+        
+    }
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        line-height: 51px;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 20px;
+        line-height: 27px;
+        width: 232px;
+        text-align: center;
+    }
+
+    p{
+        display: none;
+    }
+
+    .explorar{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17px;
+    }
 }
