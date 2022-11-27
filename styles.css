@@ -6,7 +6,7 @@
 }
 
 header {
-    margin: 44px 0 144px 76px;
+    margin: 44px 0 124px 76px;
     
 }
 .link {
@@ -38,26 +38,26 @@ section {
 }
 
 img {
-    width: 468px;
-    height: 400px;
-    margin-left: 125px;
+    width: 30%;
+    height: 30%;
+    margin-left: 44px;
     display: inline-block;
 }
 
 h1 {
     font-weight: 900;
-    font-size: 70px;
-    line-height: 100px;
+    font-size: 60px;
+    line-height: 80px;
     color: #515151;
-    width: 1000px;
+    width: 70%;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 58px;
+    font-size: 48px;
     line-height: 71px;
     color: #515151;
-    width: 1000px;
+    width: 70%;
 }
 
 p {
@@ -66,7 +66,7 @@ p {
     font-size: 24px;
     line-height: 29px;
     color: #848484;
-    width:auto;
+    width:70%;
 }
 
 .explorar {
@@ -80,7 +80,31 @@ p {
     cursor: pointer;
     color: #000000;
     border:none;
-    margin-top: 60px;
+    margin-top: 30px;
+}
+
+.link:hover {
+    opacity: .4;
+}
+
+.button-header:hover {
+    opacity: .4;
+}
+
+.link:active {
+    color: #665AE1
+}
+
+.button-header:active {
+    background: #ADFD00;
+}
+
+.explorar:hover {
+    opacity: .4;
+}
+
+.explorar:active {
+    background: #665AE1;
 }
 
 @media screen and (max-width: 767px) {
@@ -105,7 +129,7 @@ p {
     h1{
         text-align: center;
         font-size: 30px;
-        line-height: 51px;
+        line-height: 31px;
         width: 100%;
     }
 
